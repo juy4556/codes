@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project15.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  레포트4-3.cpp
+C:\Users\User\source\repos\Project15\Project15\레포트4-3.cpp(20,15): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\User\source\repos\Project15\Project15\레포트4-3.cpp(21,63): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  Project15.vcxproj -> C:\Users\User\source\repos\Project15\Debug\레포트4-3.exe

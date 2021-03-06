@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project20.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  소스.cpp
+C:\Users\User\source\repos\Project20\Project20\소스.cpp(41,12): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\Project20\Project20\소스.cpp(45,15): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Project20.vcxproj -> C:\Users\User\source\repos\Project20\Debug\연산자 중복.exe
