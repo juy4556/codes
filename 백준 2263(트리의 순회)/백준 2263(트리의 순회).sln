@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "백준 2263(트리의 순회)", "백준 2263(트리의 순회).vcxproj", "{BFCC8578-33B0-4968-AFC9-2E332924CACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFCC8578-33B0-4968-AFC9-2E332924CACE}.Debug|x64.ActiveCfg = Debug|x64
+		{BFCC8578-33B0-4968-AFC9-2E332924CACE}.Debug|x64.Build.0 = Debug|x64
+		{BFCC8578-33B0-4968-AFC9-2E332924CACE}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFCC8578-33B0-4968-AFC9-2E332924CACE}.Debug|x86.Build.0 = Debug|Win32
+		{BFCC8578-33B0-4968-AFC9-2E332924CACE}.Release|x64.ActiveCfg = Release|x64
+		{BFCC8578-33B0-4968-AFC9-2E332924CACE}.Release|x64.Build.0 = Release|x64
+		{BFCC8578-33B0-4968-AFC9-2E332924CACE}.Release|x86.ActiveCfg = Release|Win32
+		{BFCC8578-33B0-4968-AFC9-2E332924CACE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {926D5F0C-ADD6-4816-9598-6C54204B5F52}
+	EndGlobalSection
+EndGlobal

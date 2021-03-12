@@ -1,0 +1,2 @@
+C:\Users\User\source\repos\백준4256(트리)\Debug\백준4256(트리).exe
+C:\Users\User\source\repos\백준4256(트리)\Debug\백준4256(트리).pdb
