@@ -14,7 +14,5 @@ count++;
 if(p==n || p==n-1 || p==n+1 || p==3n+2)count--;
 if(p>n)count++;//f(n,n)=n!
 
-
-
     return 0;
 }
