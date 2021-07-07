@@ -1,3 +1,0 @@
-﻿  p.c
-C:\Users\User\source\repos\Project16\Project16\p.c(5,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int (*)[6]'과(와) 다릅니다.
-  Project16.vcxproj -> C:\Users\User\source\repos\Project16\Debug\Project16.exe

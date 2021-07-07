@@ -1,3 +1,0 @@
-﻿  p.c
-C:\Users\User\source\repos\Project20\Project20\p.c(4,26): warning C4098: 'DecimalToBinary': 'void' 함수에서 값을 반환하고 있습니다.
-  Project20.vcxproj -> C:\Users\User\source\repos\Project20\Debug\Project20.exe

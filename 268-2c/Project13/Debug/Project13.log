@@ -1,3 +1,0 @@
-﻿  p.c
-C:\Users\User\source\repos\Project13\Project13\p.c(6,6): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Project13.vcxproj -> C:\Users\User\source\repos\Project13\Debug\Project13.exe

@@ -1,3 +1,0 @@
-﻿  소스.cpp
-C:\Users\User\source\repos\Project23\Project23\소스.cpp(7,19): warning C4244: '초기화 중': 'time_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Project23.vcxproj -> C:\Users\User\source\repos\Project23\Debug\Project23.exe

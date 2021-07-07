@@ -1,0 +1,3 @@
+﻿  소스.cpp
+C:\Users\User\source\repos\Project26\소스.cpp(4,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  Project26.vcxproj -> C:\Users\User\source\repos\Project26\Debug\Project26.exe

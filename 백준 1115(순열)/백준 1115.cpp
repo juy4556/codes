@@ -7,8 +7,8 @@ class Node{
     int key;
     Node* link;
     public:
-    Node(int n,Node* next){
-        key=n;link=next;
+    Node(int n, Node* next){
+        key=n; link=next;
     }
 };
 class LinkedList{

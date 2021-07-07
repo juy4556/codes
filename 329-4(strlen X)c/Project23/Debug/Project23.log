@@ -1,3 +1,0 @@
-﻿  p329-4(NOstrlen).c
-C:\Users\User\source\repos\Project23\Project23\p329-4(NOstrlen).c(13,6): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Project23.vcxproj -> C:\Users\User\source\repos\Project23\Debug\Project23.exe
