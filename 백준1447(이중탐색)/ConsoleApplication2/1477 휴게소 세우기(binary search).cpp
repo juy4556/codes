@@ -34,12 +34,12 @@ int main() {
 		mid = (end + start) / 2;//binary search
 		for (int k = 0; k < n + 1; k++) {
 			if (mid <= rest[k + 1] - rest[k]) {
-				cnt += ((rest[k + 1] - rest[k]) / mid);
+				cnt += ((rest[k + 1] - rest[k]) / mid);// mid로 나눈 몫 만큼 휴게소 추가
 			}
-			if (((rest[k + 1] - rest[k]) % mid) == 0) {
+			if (((rest[k + 1] - rest[k]) % mid) == 0) {// 두 휴게소 사이거리가 2*mid일 경우 cnt가 1증가해야 하기 때문에 cnt--
 				cnt--;
 			}
-		}//사이길이가 mid 이상이면 나눈 만큼 카운트
+		}
 		if (cnt > m) {
 			start = mid + 1;
 		}

@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "cmath": "cpp",
+    "atomic": "cpp",
+    "cstring": "cpp",
+    "memory": "cpp",
+    "vector": "cpp",
+    "xmemory": "cpp",
+    "xstring": "cpp",
+    "xutility": "cpp",
+    "algorithm": "cpp"
+  }
+}
