@@ -8,15 +8,15 @@ typedef struct {
 	long long value, count;
 }PAIR;*/
 int main() {
-	int n;//1¿ÃªÛ 4000¿Ã«œ
+	int n;//1<= n <=4000
 	scanf_s("%d", &n);
-	int* a = new int[n];//¡§ºˆ ¿˝¥Ò∞™¿∫ √÷¥Î 2^28
+	int* a = new int[n];//ÔøΩÔøΩÔøΩÔøΩ ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ ÔøΩ÷¥ÔøΩ 2^28
 	int* b = new int[n];
 	int* c = new int[n];
 	int* d = new int[n];
 	int k = n * n;
-	int* arr1 = new int[k];//πËø≠ aøÕ b «’
-	int* arr2 = new int[k];//πËø≠ cøÕ d «’
+	int* arr1 = new int[k];//ÔøΩËø≠ aÔøΩÔøΩ b ÔøΩÔøΩ
+	int* arr2 = new int[k];//ÔøΩËø≠ cÔøΩÔøΩ d ÔøΩÔøΩ
 	unsigned long long cnt = 0;
 	for (int i = 0; i < n; i++) {
 		scanf_s("%d %d %d %d", &a[i], &b[i], &c[i], &d[i]);
@@ -33,7 +33,7 @@ int main() {
 	delete[]c;
 	delete[]d;
 
-	sort(arr2, arr2 + k);//ø¿∏ß¬˜º¯
+	sort(arr2, arr2 + k);//ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
 	/*
 	PAIR* arrFind = new PAIR[k + 1];
 	arrFind[0].value = arr2[0];
@@ -51,7 +51,7 @@ int main() {
 		}
 	}
 	*/
-	//vectorªÁøÎ
+	//vectorÔøΩÔøΩÔøΩ
 	vector<pair<long long, long long>> v;
 	v.push_back(make_pair(arr2[0], 1));
 	int x = 0;
@@ -67,7 +67,7 @@ int main() {
 	for (int i = 0; i < k; i++) {
 		int key = (-1)* arr1[i];
 		int left = 0, right = x;
-		while (left <= right) {//¿Ã¡ﬂ≈Ωªˆ
+		while (left <= right) {//ÔøΩÔøΩÔøΩÔøΩ≈ΩÔøΩÔøΩ
 			int mid = (left + right) / 2;
 			if (v[mid].first < key)left = mid+1;
 			else if (v[mid].first > key)right = mid-1;

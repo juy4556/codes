@@ -42,7 +42,7 @@ int binarySearch(int n) {
 int main() {
     int caseNum;
     int i = 0;
-    scanf_s("%d", &caseNum);
+    scanf("%d", &caseNum);
     int* arr = new int[caseNum];
     //setPrimeNum(number + 1);//소수 미리 설정
     a[0] = 0;
@@ -60,7 +60,7 @@ int main() {
         if (a[i]) prime.push_back(i);
     }
         for (i = 0; i < caseNum; i++) {
-            scanf_s("%d", &arr[i]);
+            scanf("%d", &arr[i]);
         }
         for (i = 0; i < caseNum; i++) {
             if (a[arr[i]])//0이 아니면(소수이면)
