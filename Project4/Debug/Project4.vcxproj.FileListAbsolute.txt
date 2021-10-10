@@ -1,0 +1,2 @@
+C:\Users\User\source\repos\Project4\Debug\Project4.exe
+C:\Users\User\source\repos\Project4\Debug\Project4.pdb
