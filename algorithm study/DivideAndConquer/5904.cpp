@@ -5,14 +5,14 @@ int N;//1<=N<=10^9
 int mid=3;//가운데길이
 int s=3;//전체길이
 int main(){
-    int len=0;
+    int len=0;//S(k-1)의 길이
     scanf("%d",&N);
     while(N>s){
         mid++;
         s=s*2+mid;
     }
     while(1){
-        int len=(s-mid)/2;
+        int len=(s-mid)/2;//S(k-1)의 길이
 
         if(N<=len){//N앞부분일때
             mid--;
