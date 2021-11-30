@@ -1,0 +1,2 @@
+C:\Users\User\source\repos\백준10942(팰린드롬)\Debug\백준10942(팰린드롬).exe
+C:\Users\User\source\repos\백준10942(팰린드롬)\Debug\백준10942(팰린드롬).pdb
