@@ -5,6 +5,7 @@
 int main() {
 	int rest[202];
 	int n, m, l;//n:현재 휴게소 개수, m:더 지으려는 휴게소 개수, l:고속도로 길이
+	std::cout<<"입력:";
 	scanf("%d %d %d", &n, &m, &l);
 	if (n < 1 || n>100)//n<=100
 		return -1;

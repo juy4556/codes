@@ -8,6 +8,8 @@
     "xmemory": "cpp",
     "xstring": "cpp",
     "xutility": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "string": "cpp",
+    "iostream": "cpp"
   }
 }

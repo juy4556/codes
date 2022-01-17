@@ -1,0 +1,2 @@
+C:\Users\User\source\repos\비밀지도cpp\Debug\비밀지도cpp.exe
+C:\Users\User\source\repos\비밀지도cpp\Debug\비밀지도cpp.pdb
